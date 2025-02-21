@@ -1,0 +1,2 @@
+need to delete output every time
+hadoop jar ngram.jar ngram input output 3
