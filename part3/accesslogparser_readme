@@ -1,0 +1,25 @@
+access log parser reads from access log and prints the parts it should be adapted for use in the project
+
+run this line once at start
+export PATH=$PATH:~/hadoop/bin
+
+
+run these lines  once for each java file 1-10 excluding 6 which doesnt exist 
+javac access_log_hadoop1.java -cp $(hadoop classpath)
+jar -cf access_log_hadoop1.jar access_log_hadoop1*.class
+note you need to delete the output folder first if it exists
+hadoop jar access_log_hadoop1.jar access_log_hadoop1 input output1
+
+Problems 4 and 5 have helper files tht return the top 10 based on hits/accesses 
+Problem 9 requires the problem 5 s helper file to find the top 3
+There are 2 helper files
+
+Get the top 10 based on value
+used in problems 4 5 9
+python top10.py
+
+
+Get a specific keys value
+used in problem 9
+python keyvalue.py
+
