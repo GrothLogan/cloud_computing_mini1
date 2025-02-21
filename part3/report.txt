@@ -1,0 +1,12 @@
+The code used is the problem number 6 is skipped since i used the result from problem 3 
+
+problem 1 330592 hits to /images/smilies/ used code from accessl_log_hadoop1
+problem 2 IP 96.32.128.5 had 1959647 hits used code from accessl_log_hadoop2
+problem 3 There are 15-16 (there is 1 get request as opposed to GET all caps) ASDE, DEBUG, DELETE,FLURP,GET,HEAD, INDEX, OPTIONS, POST, PROPFIND,PUT, SEARCH, TRACE, TRACK, VIMF, get
+problem 4 /apache-log/access.log is the most hit path being hit 630006 times This result requires the problem 4 helper python file
+problem 5 47.39.156.135 is the one with the most accesses oing it 4305147 times This result requires the problem 5 helper python file
+Problem 6 also uses problem 3's code POST had 471552 requests its in output3
+problem 7 404 appeared as a status code 7209678 times
+problem 8 on 19/Dec/2020 10337151 bytes were sent
+problem 9 the ips with the most accesses are 47.39.156.135 with 1191486857 bytes and 96.32.128.5 2147483647 bytes and 73.169.232.206 565279763 bytes This result requires the problem 5 helper python file to get the top 3 ips and then ctrl f to find the top 3 in the output9 which has bytes
+problem 10 on  16/Jan/2022 2147483647 bytes were sent with status code 200
